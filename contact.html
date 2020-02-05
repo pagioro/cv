@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact me</title>
+</head>
+
+<body>
+
+  <h1>My Contact Details</h1>
+  <p>My fictional adresss</p>
+  <p>12345678</p>
+  <p>myemail@gmail.com</p>
+
+  <hr>
+
+  <form action="mailto:info@londonappbrewery.com" method="post" enctype="text/plain"><!--O action neste caso te leva na página principal ao clicar no submit criado abaixo
+                                                   O mail to abre o aplicativo de email instalado no computador
+                                                   O enctype é vinculado com o utf-8 acima e ao adicionar o text/plain na parte do corpo do email o nome sairá de forma correta-->
+    <label>Your Name:</label><br>
+    <input type="text" name="yourName" value=""><br> <!-- Guarda as informações do nome com uma caixa de texto-->
+    <label>Your Email:</label><br>
+    <input type="email" name="yourEmail" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br> <!-- Na área de texto rows será a altura desta área e cols a largura-->
+    <input type="submit" name="">
+
+<!-- Na tag input colocamos as informações em name para aparecer no corpo do e-mail como padrão quando preenchemos o formulário-->
+
+
+  </form>
+
+</body>
+
+</html>

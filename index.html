@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--Fala para o browser qual a versão do HTML que é-->
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--Toda a lista de todos os caracteres disponíveis na web, fala para o browser que ele é codificado com utf-8-->
+
+  <title>Elcio's Personal Site</title>
+  <!--Título da aba da página-->
+
+</head>
+<body>
+  <table Cellspacing = "20"> <!--Foi adicionada tabela com a imagem, ou seja, podemos colocar o texto ao lado da imagem. O Cellspacing adiciona um vão ao lado da imagem-->
+    <tr>
+      <td> <img src="Rio.jpg" alt="Brazil"> </td>
+        <!--<img src="https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/istock-518230906.jpg?itok=tZY_GhS9" alt="Brazil">
+        Para adicionar imagem usa-se a seguinte tag <img src=""> onde img é o elemento e src(source)é o atributo
+        Pode ser uma url ou uma imagem do seu computador. O alt adiciona um texto para sua imagem
+        Posso também salvar a imagem dentro da pasta raiz onde está o index e me referir a ela para adicionar a imagem no site,
+        como podemos ver na tag acima e ao fazer isso não correrá o risco de perder a imagem caso usamos o url diretamente-->
+      <td><h1>Rio de Janeiro</h1> <!--A tag <h1></h1> formata o texto em um tamanho especifico e vai até <h6></h6>-->
+      <p><em>Rio de<strong> Janeiro</strong>.</em></p> <!--A tag <p></p> cria um parágrafo
+                                                               A tag <strong></strong>
+                                                               A tag <em></em> altera a palavra ou a parte do texto que desejar para itálico-->
+      <p>Brazil has a coastline of 7,491 kilometers (4,655 mi).</p></td> <!--A tag <p></p> adiciona um parágrafo na página-->
+    </tr>
+  </table>
+
+  <hr>
+  <!--<hr>Cria uma linha horizontal separando o texto-->
+
+  <h3>Brazil</h3>
+
+  <ul>
+    <!--Tag usada para iniciar o uso de tópicos-->
+    <li><a href="https://en.wikipedia.org/wiki/Brazil">Brazil</a>is considered an advanced emerging economy.</li> <!-- cria os tópicos para cada frase ou palavra-->
+    <!--A tag <a href="#"></a> faz com que a palavra entre a tag faça o redirecionamento para um link com informações de seu interesse-->
+    <li>The land now called Brazil was claimed for the Portuguese Empire on 22 April 1500.</li>
+    <li><a href="https://en.wikipedia.org/wiki/Brazil">Brazil</a>was inhabited by numerous tribal nations prior to the landing in 1500 of explorer Pedro Álvares Cabral.</li>
+  </ul>
+
+  <hr>
+
+  <h3>Work Experience</h3>
+  <table Cellspacing = "10"> <!-- Adiciona espaços entre as células-->
+    <!-- Cria tabelas para deixar o site mais organizado-->
+    <thead> <!--Cria o título para cada coluna-->
+      <tr>
+        <th>Data</th> <!-- Adiciona o texto para cada célula-->
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2012</td>
+        <td>Restaurante</td>
+      </tr>
+      <tr> <!--Segunda linha-->
+        <td>2005-2011</td>
+        <td>Padaria</td>
+      </tr>
+      <tr> <!--Terceira linha-->
+        <td>2016-2017</td>
+        <td>Cinema</td>
+      </tr>
+    </tbody>
+  </table>  <!--As tags de tabela acima são uma unica linha, para adionar mais devemos refazer o procedimento com <td></td>.-->
+
+  <hr>
+
+<h3>Skills</h3>
+
+<table Cellspacing = "10">
+  <tr>
+    <td>IOs Development</td>
+    <td>⭐</td>
+  </tr>
+  <tr>
+    <td>Web Development</td>
+    <td>⭐</td>
+  </tr>
+  <tr>
+    <td>Photography</td>
+    <td>⭐</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+  <h3>Skills</h3> <!-- Desafio Angela -->
+  <table border = "1" rules = "groups"> <!--Adiciona borda de 1px e a borda em volta do grupo de colunas somente-->
+      <tr>
+      <td>HTML<br/></td><td>⭐⭐⭐</td>
+      <td>CSS</td><td>⭐</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td><td>⭐</td>
+      <td>C#</td><td>⭐⭐</td>
+    </tr>
+  </table>
+
+  <h3>Skills</h3> <!--Resolução Angela-->
+<table>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>IOs Development</td>
+          <td>⭐</td>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>⭐</td>
+        </tr>
+        <tr>
+          <td>Photography</td>
+          <td>⭐</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>IOs Development</td>
+          <td>⭐</td>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>⭐</td>
+        </tr>
+        <tr>
+          <td>Photography</td>
+          <td>⭐</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+  <hr>
+
+  <a href="Brazil.html">Brazil</a>
+  <!--Esta tag de referência acima te redirecionará para uma nova página criada ao lado que deverá ficar na mesma pasta-->
+  <a href="contact.html">Contact me</a>
+
+</body>
+
+</html>
